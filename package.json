@@ -1,0 +1,16 @@
+{
+  "name": "reddit-ext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "napa3um@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "node-fetch": "^1.5.3"
+  }
+}
