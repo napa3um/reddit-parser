@@ -11,10 +11,10 @@ const flatData = [
 ];
 
 const nodeById = {};
-flatData.forEach(node => nodeById[node.id] = node);
-
 const rootNode = {};
+
 flatData.forEach(node => {
+	nodeById[node.id] = node;
 	const parentNode = nodeById[node.parentId] ? nodeById[node.parentId] : rootNode;
 	if(!parentNode.children)
 		parentNode.children = [];
